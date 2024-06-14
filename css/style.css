@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {/*Configuracion de fondo*/
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.descripcion {/*Parametros de la descripcion*/
+    background-color: #f9f9f9; 
+    border-radius: 15px;  
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);  
+    padding: 20px;  
+    font-family: Arial, sans-serif;  
+    color: #333;  
+    line-height: 1.6;  
+    max-width: 800px;  
+    margin: auto;  
+    margin-top: 50px;  
+    margin-bottom: 50px;  
+    font-size: 18px;  
+}
+
+.descripcion b {/*Color letra resaltada*/
+    color: #ff6f00;  /* Color del texto en negrita (nombre del juego) */
+}
+
+.inicio-juego {/*mostrarlo en bloque*/
+    display: block;
+}
+
+.juego {/*ocultar juego*/
+    display: none;
+}
+
+h1{/*titulo del juego*/
+    position: fixed;
+    top: 10px;
+    left:  10px;
+    font-size: 20px;
+}
+
+#CanvasJuego {/*canva del juego y sus parametros*/
+    border: 1px solid #ddd;
+    background: #000000;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+#botones {/*Configuracion de los botones*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {/*Estilo de los botones*/
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    background: #007BFF;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {/*Estilo de los botones*/
+    background: #0056b3;
+}
+
+button:active {/*Estilo de los botones*/
+    background: #004085;
+}
+
+#score {/*Posision de la puntuacion*/
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+#highScore{/*Posision del highscore*/
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sun Runner</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+    </head>
+    <body>
+        <h1>Sun Runner</h1>
+        <!-- Div encargado de la descripcion del juego asi como su boton -->
+        <div class="descripcion inicio-juego">
+            <p><b>Sun Runner</b> es un emocionante y desafiante juego de vuelo en el que tienes que navegar por el espacio lleno de obstáculos. 
+                Consiste en  una nave que debe evitar chocar con los soles que aparezcan en la pantalla mientras vuelas por el espacio. 
+                Con cada segundo, la dificultad del juego aumenta, aparecen más soles y se mueven mucho más rápido. Tu objetivo es conseguir la mayor 
+                puntuación posible antes de perder o salir de la pantalla. El juego ofrece controles simples: use las <b>teclas de flecha</b> para 
+                mover la plataforma hacia arriba y hacia abajo. Prepárate para poner a prueba tus reflejos y habilidades de navegación en Sun Runner. 
+                ¡A jugar!
+            <button id="comenzarJuego">Jugar</button>
+        </div>
+        <!-- Div encargado de el display del canva y sus botones, ademas de puntuacion -->
+        <div id="contenedorJuego" class="juego">
+            <canvas id="CanvasJuego" width="500" height="500"></canvas>
+            <div id="botones">
+                <button id="Pausa">Pausar</button>
+                <button id="Iniciar">Iniciar</button>
+                <button id="Reiniciar">Reiniciar</button>
+                <button id="Hitbox">DevTool</button>
+                <p id="score">Puntuacion: 0</p>
+                <p id="highScore">Puntuación mas alta: 0</p>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script src="js/funcionalidad.js"></script>
+        <script src="js/script2.js"></script>
+    </body>
+</html>
+
